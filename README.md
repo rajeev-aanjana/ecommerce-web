@@ -10,9 +10,9 @@ This project focuses entirely on frontend development and demonstrates modern Re
 
 Hi, I'm Rajeev Aanjana.
 
-I am a Frontend / Full Stack Developer passionate about building modern, scalable, and user-friendly web applications.
+I am a Frontend Developer passionate about building modern, scalable, and user-friendly web applications.
 
-Currently, I worked as a Full Stack Developer at Odoo in the R&D Team, where I work with:
+Recently, I worked as a FullStack (Frontend focused) Developer at Odoo in the R&D Team, where I work with:
 
 * Reactjs
 * Nextjs
@@ -353,6 +353,6 @@ Frontend / Full Stack Developer
 
 Thank you for visiting and exploring this project.
 
-This project represents my frontend development skills, problem-solving approach, UI/UX understanding, and React ecosystem knowledge.
+This project represents my frontend development skills, problem-solving approach and React ecosystem knowledge.
 
 ⭐ If you liked the project, feel free to connect with me.
