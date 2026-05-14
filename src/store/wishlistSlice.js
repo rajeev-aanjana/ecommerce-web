@@ -7,10 +7,23 @@ const wishlistSlice = createSlice({
   },
   reducers: {
     addToWishlist: (state, action) => {
-      state.wishlist.push(action.payload);
+      const existingItem = state.wishlist.find(
+        (item) => item.id === action.payload.id,
+      );
+
+      if (existingItem) {
+        existingItem.quantity += 1;
+      } else {
+        state.wishlist.push({
+          ...action.payload,
+          quantity: 1,
+        });
+      }
     },
     removeFromWishlist: (state, action) => {
-      state.wishlist = state.wishlist.filter((item) => item.id !== action.payload);
+      state.wishlist = state.wishlist.filter(
+        (item) => item.id !== action.payload,
+      );
     },
     clearAllWishlist: (state, action) => {
       state.wishlist.length = 0;

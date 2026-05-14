@@ -13,12 +13,12 @@ import {
 
 const Carousel = () => {
   const images = [
-    beautyBanner_1,
+    // beautyBanner_1,
     furnitureBanner_1,
     vegiesBanner_1,
-    beautyBanner_2,
+    // beautyBanner_2,
     furnitureBanner_2,
-    perfumeBanner_2,
+    // perfumeBanner_1,
     vegiesBanner_2,
   ];
 
